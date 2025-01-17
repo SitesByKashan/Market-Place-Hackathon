@@ -28,7 +28,7 @@ The system architecture comprises three core components:
 
 ### Diagram
 
-![System Architecture](./images/System Architecture.png)
+![System Architecture](./Documentation/images/System_Architecture.png)
 
 ---
 
