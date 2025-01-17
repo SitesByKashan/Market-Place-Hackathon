@@ -50,7 +50,7 @@ The system architecture comprises three core components:
 
 ### Workflow Diagram
 
-![Workflow Diagram](./images/workflow.png)
+![Workflow Diagram](./Documentation/images/workflow.png)
 
 ---
 
