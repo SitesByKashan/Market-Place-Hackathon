@@ -1,34 +1,70 @@
-# Market-Place-Hackathon
- 
-# Software House Website
+# Market Place Hackathon
 
-This repository contains the technical implementation of a modern, responsive software house website. It includes dynamic content management using Sanity CMS and integrations with third-party APIs for extended functionality.
+Welcome to the **Market Place Hackathon** repository! This project demonstrates a feature-rich marketplace platform with dynamic functionalities and an intuitive user interface. It integrates modern web technologies for an engaging user experience.
 
 ---
 
 ## Features
 
-- **Dynamic Content**: Powered by Sanity CMS for easy management of products, blogs, and portfolio.
+- **Dynamic Product Management**: Add, update, and view product details seamlessly.
+- **Interactive UI**: Built with Next.js for a responsive and dynamic interface.
 - **Third-Party API Integrations**:
-  - Payment processing (e.g., Stripe)
-  - Shipment tracking
-  - Analytics (e.g., Google Analytics)
-- **Responsive Design**: Built with Next.js and styled using Tailwind CSS.
-- **User Workflows**: Simplified processes for browsing products, placing orders, and tracking shipments.
+  - Payment Gateway Integration for secure transactions.
+  - Real-time analytics and user activity tracking.
+- **Scalable Content Management**: Powered by Sanity CMS for efficient data handling.
+- **Optimized Performance**: Fast-loading pages with efficient resource usage.
 
 ---
 
 ## System Architecture
 
-### Components
+### Overview
 
-1. **Frontend**: Developed with Next.js, providing a responsive and seamless user interface.
-2. **Sanity CMS**: Backend for managing dynamic content.
-3. **Third-Party APIs**: Handles payments, communications, and analytics.
+The system architecture comprises three core components:
+
+1. **Frontend**: Handles user interaction and dynamic content rendering using Next.js.
+2. **Sanity CMS**: Manages structured content for products, blogs, and more.
+3. **Third-Party APIs**: Enables payment processing, analytics, and other features.
 
 ### Diagram
 
-```plaintext
-![image](https://github.com/user-attachments/assets/3521d3b7-72b6-411a-819f-38b0615a82f3)
+![System Architecture](./images/System Architecture.png)
 
+---
+
+## Workflows
+
+### Example Workflow: "User Purchases a Product"
+
+1. **User Interaction**:
+   - User browses the marketplace and selects a product.
+   - Adds the product to the cart and proceeds to checkout.
+
+2. **Backend Communication**:
+   - Fetches product details and stock availability from Sanity CMS.
+   - Processes the payment using a third-party API.
+
+3. **Order Completion**:
+   - Saves the order details in Sanity CMS.
+   - Sends an email confirmation to the user.
+
+### Workflow Diagram
+
+![Workflow Diagram](./Documentation/images/Workflow.png)
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+
+- **Node.js** (v18 or later)
+- **Sanity CLI**
+- API keys for third-party integrations (e.g., Stripe, Google Analytics)
+
+### Steps to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SitesByKashan/Market-Place-Hackathon.git
 
