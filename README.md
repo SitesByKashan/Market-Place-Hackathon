@@ -29,7 +29,6 @@ This repository contains the technical implementation of a modern, responsive so
 ### Diagram
 
 ```plaintext
-[Frontend (Next.js)]
-       |
-       V
-[Sanity CMS] <-------> [Third-Party APIs]
+![image](https://github.com/user-attachments/assets/3521d3b7-72b6-411a-819f-38b0615a82f3)
+
+
