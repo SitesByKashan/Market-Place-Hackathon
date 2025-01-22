@@ -28,7 +28,7 @@ The system architecture comprises three core components:
 
 ### Diagram
 
-![System Architecture](./Documentation/images/System_Architecture.png)
+![System Architecture](./images/System_Architecture.png)
 
 ---
 
@@ -50,7 +50,7 @@ The system architecture comprises three core components:
 
 ### Workflow Diagram
 
-![Workflow Diagram](./Documentation/images/Workflow.png)
+![Workflow Diagram](./images/Workflow.png)
 
 ---
 
